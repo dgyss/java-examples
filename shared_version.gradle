@@ -1,0 +1,6 @@
+ext {
+    me = '1.0.0'
+    vertx_version = '3.4.1'
+    junit_version = '4.12'
+    java_version = '1.8'
+}
