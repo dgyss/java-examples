@@ -17,7 +17,7 @@ import java.net.Socket;
  * @date: 2017/4/17
  * @version: 1.0
  */
-public class TimeServer {
+public class TimeServer01 {
 
     public static void main(String[] args) throws IOException {
         int port = 8080;

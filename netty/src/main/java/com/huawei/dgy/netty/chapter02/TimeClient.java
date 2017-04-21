@@ -9,6 +9,13 @@ import java.net.Socket;
 /**
  * 客户端
  *
+ * {@link Socket#setReuseAddress(boolean) setReuseAddress(boolean)} 设置connection关闭后，
+ * 端口可以立即可用
+ *
+ * {@link Socket#setSendBufferSize(int) setSendBufferSize(int)} 设置socket发送缓冲区大小
+ *
+ * {@link Socket#setReceiveBufferSize(int) setReceiveBufferSize(int)} 设置socket接收缓冲区大小
+ *
  * @auther: dgy
  * @date: 2017/4/19
  * @version: 1.0
