@@ -1,4 +1,5 @@
 rootProject.name = 'java-examples'
 include 'json'
 include 'netty'
+include 'javaStdLib'
 
